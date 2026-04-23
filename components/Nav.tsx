@@ -15,7 +15,7 @@ export function Nav() {
         <Logo size="md" />
         <a
           href="#"
-          className="inline-flex items-center justify-center rounded-ws-lg bg-ws-rose font-sans font-bold tracking-[0.01em] text-white shadow-ws-primary transition-transform duration-200 ease-ws-spring active:scale-[0.97]"
+          className="inline-flex items-center justify-center rounded-ws-lg bg-ws-rose font-sans font-bold tracking-[0.01em] text-white shadow-ws-primary transition-transform duration-200 ease-ws-spring hover:!text-white active:scale-[0.97]"
           style={{ height: 40, padding: "0 18px", fontSize: 13 }}
         >
           Download

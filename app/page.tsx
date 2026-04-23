@@ -3,7 +3,6 @@ import { Hero } from "@/components/Hero";
 import { SectionTitle } from "@/components/SectionTitle";
 import { FeatureBlock } from "@/components/FeatureBlock";
 import { ClosingCTA } from "@/components/ClosingCTA";
-import { Waitlist } from "@/components/Waitlist";
 import { Footer } from "@/components/Footer";
 
 export default function Page() {
@@ -15,8 +14,8 @@ export default function Page() {
 
       <FeatureBlock
         eyebrow="Matching"
-        heading="Find vendors without the scroll."
-        italicWord="without the scroll."
+        heading="Vendors, without the hunt."
+        italicWord="without the hunt."
         body="Describe your wedding. We match you with the right photographers, florists, and venues nearby. No endless marketplaces."
         phoneScreen="vendors"
       />
@@ -48,7 +47,6 @@ export default function Page() {
       />
 
       <ClosingCTA />
-      <Waitlist />
       <Footer />
     </main>
   );
