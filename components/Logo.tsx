@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export function Logo({
   size = "md",
@@ -13,7 +14,12 @@ export function Logo({
   const wordSize = size === "sm" ? 17 : 22;
 
   return (
-    <div className="flex items-center" style={{ gap: size === "sm" ? 10 : 12 }}>
+    <Link
+      href="/"
+      aria-label="WeddingShark home"
+      className="inline-flex items-center no-underline transition-opacity duration-200 ease-ws-spring hover:opacity-85"
+      style={{ gap: size === "sm" ? 10 : 12 }}
+    >
       <div
         className="flex items-center justify-center bg-ws-rose"
         style={{
@@ -40,6 +46,6 @@ export function Logo({
           WeddingShark
         </span>
       )}
-    </div>
+    </Link>
   );
 }
