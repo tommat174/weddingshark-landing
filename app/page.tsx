@@ -13,10 +13,10 @@ export default function Page() {
       <SectionTitle />
 
       <FeatureBlock
-        eyebrow="Matching"
+        eyebrow="Vendors"
         heading="Vendors, without the hunt."
         italicWord="without the hunt."
-        body="Describe your wedding. We match you with the right photographers, florists, and venues nearby. No endless marketplaces."
+        body="Find local photographers, florists, and venues right in the app — or save the ones you've already discovered. WeddingShark keeps them organized — so you can compare quotes, send well-crafted emails, and never miss a follow-up."
         phoneScreen="vendors"
       />
 
@@ -31,17 +31,17 @@ export default function Page() {
 
       <FeatureBlock
         eyebrow="Pipeline"
-        heading="See every vendor at a glance."
-        italicWord="at a glance."
-        body="Researching → Contacted → Quoted → Booked → Paid. See exactly where every vendor stands, and what's slipping through the cracks."
+        heading="Know what's next with every vendor."
+        italicWord="vendor."
+        body="Researching → Contacted → Quoted → Booked → Paid. See exactly where each vendor stands — and what needs your attention this week."
         phoneScreen="home"
       />
 
       <FeatureBlock
         eyebrow="Budget"
-        heading="Quotes, contracts, payments — tracked."
+        heading="Every dollar, tracked."
         italicWord="tracked."
-        body="Keep every quote, signed contract, and payment deadline in one spot. Never scramble for a photographer's deposit again."
+        body="Log every quote, mark deposits as paid, and never miss a payment deadline. Your budget stays accurate without the spreadsheet."
         phoneScreen="budget"
         reverse
       />

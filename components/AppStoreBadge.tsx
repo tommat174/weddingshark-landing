@@ -4,7 +4,7 @@ export function AppStoreBadge({ dark = true }: { dark?: boolean }) {
   return (
     <a
       href="#"
-      className="inline-flex items-center gap-3 px-5 font-sans transition-transform duration-200 ease-ws-spring hover:scale-[0.99] active:scale-[0.97]"
+      className="inline-flex items-center gap-3 px-5 font-sans transition-transform duration-200 ease-ws-spring hover:scale-[0.97] active:scale-[0.96]"
       style={{
         height: 56,
         background: bg,
