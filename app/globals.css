@@ -32,3 +32,83 @@ a:hover {
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
+
+/* Legal document typography (privacy, terms) */
+.legal-prose {
+  font-family: var(--font-inter), -apple-system, sans-serif;
+  font-size: 17px;
+  line-height: 1.7;
+  color: #1a1a1a;
+}
+
+.legal-prose h1 {
+  font-family: var(--font-fraunces), Georgia, serif;
+  font-size: clamp(36px, 4.4vw, 52px);
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  line-height: 1.1;
+  margin: 0 0 16px;
+}
+
+.legal-prose h2 {
+  font-family: var(--font-fraunces), Georgia, serif;
+  font-size: clamp(22px, 2.6vw, 30px);
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  line-height: 1.25;
+  margin: 48px 0 18px;
+}
+
+.legal-prose h3 {
+  font-family: var(--font-inter), -apple-system, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  margin: 28px 0 10px;
+  color: #1a1a1a;
+}
+
+.legal-prose p {
+  margin: 0 0 18px;
+}
+
+.legal-prose ul {
+  list-style: disc;
+  padding-left: 1.5rem;
+  margin: 0 0 18px;
+}
+
+.legal-prose li {
+  margin: 0 0 10px;
+}
+
+.legal-prose li > ul {
+  margin-top: 8px;
+}
+
+.legal-prose a {
+  color: #c4827a;
+  text-decoration: none;
+}
+
+.legal-prose a:hover {
+  color: #c4827a;
+  text-decoration: underline;
+}
+
+.legal-prose hr {
+  border: none;
+  border-top: 1px solid #EAE5DB;
+  margin: 40px 0;
+}
+
+.legal-prose strong,
+.legal-prose b {
+  font-weight: 700;
+}
+
+.legal-prose .legal-meta {
+  color: #6b6b6b;
+  font-style: italic;
+  font-size: 15px;
+  font-weight: 400;
+}
