@@ -12,7 +12,7 @@ const pipeline: PipelineStat[] = [
   { label: "Matching", n: 4, color: "#b4dbbb" },
   { label: "Quoted", n: 7, color: "#c4827a" },
   { label: "Booked", n: 3, color: "#333132" },
-  { label: "Declined", n: 2, color: "#7D7975" },
+  { label: "Paid", n: 1, color: "#c9a961" },
 ];
 
 export function HomeScreen() {
